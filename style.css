@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Georgia';
+    text-align: center;
+    background-color: orange;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 370px;
+    margin-right: 370px;
+
+}
+
+
+/* I found that i can write multiple values in one command, for some properties.
+(the border propery has border-width, border-style & border-color values */
+table {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189);
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* bold for font-weight is = 700 */
+th {
+    background-color: orange;
+    font-family: 'Georgia';
+    font-weight: bold;
+    color: black;
+}
+
+td {
+    font-family: fantasy;
+    text-align: center;
+}
+
+/* the data, headers and rows needed a bit more spacing */
+td,
+th,
+tr {
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
